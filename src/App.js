@@ -11,7 +11,7 @@ export default class App extends Component {
     url: "https://www.food2fork.com/api/search?key=cc459e789e52b48750e9671f6ec09db4",
     base_url: "https://www.food2fork.com/api/search?key=cc459e789e52b48750e9671f6ec09db4",    
     details_id: 35387,
-    pageIndex: 0,
+    pageIndex: 1,
     search: '', 
     query: '&q=',
     error: ''
@@ -38,7 +38,7 @@ async getRecipe(){
 }
 
 componentDidMount(){
-  // this.getRecipe();
+  this.getRecipe();
 }
 
 displayPage = (index) => {

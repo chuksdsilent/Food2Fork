@@ -12,7 +12,7 @@ export default class RecipeList extends Component {
                 <div className="container mx-auto">
                     <div className="row">
                         <div className="col-10 mx-auto col-md-6 text-center text-uppercase mb-3">
-                            <h1 className="text-slanted"> Recipe List </h1>
+                            <h1 className="text-slanted mt-5"> Recipe List </h1>
                         </div>
                     </div> 
                     {/* endo of title */}

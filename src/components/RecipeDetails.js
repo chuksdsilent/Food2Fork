@@ -98,7 +98,6 @@ export default class RecipeDetails extends Component {
                         </div>
                     </div>
                 </div>
-                <h1> Hello from Details </h1>
             </React.Fragment>
         )
     }
